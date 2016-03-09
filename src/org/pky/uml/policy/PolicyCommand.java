@@ -1,0 +1,107 @@
+package org.pky.uml.policy;
+
+import org.eclipse.gef.RequestConstants;
+
+public class PolicyCommand {
+
+	
+		public static String AddCommand_Label = "Add command";
+		public static String AlignmentAction_AlignSubmenu_ActionLabelText = "&Align";
+		public static String AndGate_LabelText = "And Gate";
+		public static String CellEditorValidator_NotANumberMessage = "Not a number";
+		public static String Circuit_LabelText = "Circuit";
+		public static String CloneCommand_Label = "Clone Object";
+		public static String ConnectionCommand_Description = "Connection change";
+		public static String ConnectionCommand_Label = "wire connection";
+		public static String CreateCommand_Label = "Create Object";
+		public static String CreateGuideCommand_Label = "Create Guide";
+		public static String CreateLogicPage1_Description = "Create a new Logic file resource.";
+		public static String CreateLogicPage1_ModelNames_EmptyModelName = "E&mpty Model";
+		public static String CreateLogicPage1_ModelNames_FourBitAdderModelName = "F&our-bit Adder Model";
+		public static String CreateLogicPage1_ModelNames_GroupName = "Logic Model Samples";
+		public static String CreateLogicPage1_Title = "Create Logic File";
+		public static String DeleteCommand_Label = "Delete Object";
+		public static String DeleteGuideCommand_Label = "Delete Guide";
+		public static String DimensionPropertySource_Property_Height_Label = "Height";
+		public static String DimensionPropertySource_Property_Width_Label = "Width";
+		public static String GraphicalEditor_CLOSE_BUTTON_UI  = "Close";
+		public static String GraphicalEditor_FILE_DELETED_TITLE_UI  = "File Deleted";
+		public static String GraphicalEditor_FILE_DELETED_WITHOUT_SAVE_INFO = "The file has been deleted from the file system.  Do you want to save your changes or close the editor without saving?";
+		public static String GraphicalEditor_SAVE_BUTTON_UI  = "Save";
+		public static String GroundOutput_LabelText = "Ground";
+		public static String IncrementDecrementAction_Decrement_ActionLabelText = "Decrement";
+		public static String IncrementDecrementAction_Decrement_ActionToolTipText = "Decrement LED";
+		public static String IncrementDecrementAction_Increment_ActionLabelText = "Increment";
+		public static String IncrementDecrementAction_Increment_ActionToolTipText = "Increment LED";
+		public static String IncrementDecrementCommand_LabelText = "Logic Value Change";
+		public static String LED_LabelText = "LED";
+		public static String LiveOutput_LabelText = "Positive Voltage";
+		public static String LocationPropertySource_Property_X_Label = "X";
+		public static String LocationPropertySource_Property_Y_Label = "Y";
+		public static String LogicContainerEditPolicy_OrphanCommandLabelText = "Orphan children";
+		public static String LogicDiagram_LabelText = "Logic Diagram";
+		public static String LogicElementEditPolicy_OrphanCommandLabelText = "Reparenting LogicSubpart";
+		public static String LogicPlugin_Category_ComplexParts_Label = "Canned Parts";
+		public static String LogicPlugin_Category_Components_Label = "Components";
+		public static String LogicPlugin_Category_ControlGroup_Label = "Control Group";
+		public static String LogicPlugin_Tool_ConnectionCreationTool_ConnectionCreationTool_Description = "Connection tool can be used to connect the various circuit parts.";
+		public static String LogicPlugin_Tool_ConnectionCreationTool_ConnectionCreationTool_Label = "Connection";
+		public static String LogicPlugin_Tool_CreationTool_ANDGate_Description = "Creates a gate that can perform the logical AND operation";
+		public static String LogicPlugin_Tool_CreationTool_ANDGate_Label = "And Gate";
+		public static String LogicPlugin_Tool_CreationTool_Circuit_Description = "Create a circuit.  It can be connected to external circuits/parts, and can have an intricate design as well.";
+		public static String LogicPlugin_Tool_CreationTool_Circuit_Label = "Circuit";
+		public static String LogicPlugin_Tool_CreationTool_FlowContainer_Description = "Creates a container that can hold other circuit components";
+		public static String LogicPlugin_Tool_CreationTool_FlowContainer_Label = "Flow Container";
+		public static String LogicPlugin_Tool_CreationTool_FullAdder_Description = "Creates a circuit representing a full-adder (uses two half-adders)";
+		public static String LogicPlugin_Tool_CreationTool_FullAdder_Label = "FullAdder";
+		public static String LogicPlugin_Tool_CreationTool_Ground_Description = "Creates a ground node, which is an electrical equivalent of logical 'false'";
+		public static String LogicPlugin_Tool_CreationTool_Ground_Label = "Ground";
+		public static String LogicPlugin_Tool_CreationTool_HalfAdder_Description = "Creates a circuit representing a half-adder";
+		public static String LogicPlugin_Tool_CreationTool_HalfAdder_Label = "HalfAdder";
+		public static String LogicPlugin_Tool_CreationTool_Label_Label = "Label";
+		public static String LogicPlugin_Tool_CreationTool_Label_Description = "Creates labels (they support renaming, resizing, dragging, cut and paste, etc.)";
+		public static String LogicPlugin_Tool_CreationTool_LED_Description = "Creates an LED which is used to read voltage input/output";
+		public static String LogicPlugin_Tool_CreationTool_LED_Label = "LED";
+		public static String LogicPlugin_Tool_CreationTool_LiveGroundStack_Description = "A stack containg the live output and ground parts";
+		public static String LogicPlugin_Tool_CreationTool_LiveGroundStack_Label = "Live & Ground Stack";
+		public static String LogicPlugin_Tool_CreationTool_LiveOutput_Description = "Creates a voltage positive node, which is an electrical equivalent of logical 'true'";
+		public static String LogicPlugin_Tool_CreationTool_LiveOutput_Label = "V+";
+		public static String LogicPlugin_Tool_CreationTool_LogicLabel = "Label";
+		public static String LogicPlugin_Tool_CreationTool_ORGate_Description = "Create a gate that performs the logical OR operation";
+		public static String LogicPlugin_Tool_CreationTool_ORGate_Label = "Or Gate";
+		public static String LogicPlugin_Tool_CreationTool_XORGate_Description = "Creates a gate that can perform the logical XOR operation";
+		public static String LogicPlugin_Tool_CreationTool_XORGate_Label = "XOR Gate";
+		public static String LogicXYLayoutEditPolicy_AddCommandLabelText = "Reparenting LogicSubpart";
+		public static String LogicXYLayoutEditPolicy_CreateCommandLabelText = "Creating LogicSubpart";
+		public static String Marquee_Stack = "Marquee Tools";
+		public static String MoveGuideCommand_Label = "Move Guide";
+		public static String OrGate_LabelText = "Or Gate";
+		public static String OrphanChildCommand_Label = "Orphan LogicSubpart";
+		public static String PaletteCustomizer_InvalidCharMessage = "Name contains invalid character: *";
+		public static String PasteAction_ActionLabelText = "&Paste";
+		public static String PrintDialog_Height = "Fit Height";
+		public static String PrintDialog_Page = "Fit Page";
+		public static String PrintDialog_Tile = "Tile";
+		public static String PrintDialog_Title = "Select Print Mode";
+		public static String PrintDialog_Width = "Fit Width";
+		public static String PropertyDescriptor_Label_Text = "Text";
+		public static String PropertyDescriptor_LED_Value = "Value";
+		public static String PropertyDescriptor_LogicDiagram_ConnectionRouter = "Connection Router";
+		public static String PropertyDescriptor_LogicDiagram_Manual = "Manual";
+		public static String PropertyDescriptor_LogicDiagram_Manhattan = "Manhattan";
+		public static String PropertyDescriptor_LogicDiagram_ShortestPath = "Shortest Path";
+		public static String PropertyDescriptor_LogicSubPart_Location = "Location";
+		public static String PropertyDescriptor_LogicSubPart_Size = "Size";
+		public static String ReorderPartCommand_Label = "Reorder Subpart";
+		public static String SetLocationCommand_Label_Location = "Move Object";
+		public static String SetLocationCommand_Label_Resize = "Resize Object";
+		public static String ViewMenu_LabelText = "&View";
+		public static String Wire_LabelText = "Wire";
+		public static String XORGate_LabelText = "XOR Gate";
+		public static final String CHILDREN = "Children"; //$NON-NLS-1$
+		public static final String PROPERTY_LAYOUT = "elementbase layout change";
+		public static final String REQ_DIRECT_EDT = RequestConstants.REQ_DIRECT_EDIT;
+		public static final String CHANGE_VALUE = "CHANGE_VALUE";
+		
+		
+}
